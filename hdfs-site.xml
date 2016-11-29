@@ -12,11 +12,12 @@
 		<name>dfs.support.append</name>
 		<value>true</value>
 	</property>
-
+<!-- 
+see https://github.com/fluent/fluent-plugin-webhdfs/issues/15
 	<property>
 		<name>dfs.support.broken.append</name>
 		<value>true</value>
-	</property>
+	</property> -->
 	<property>
 	  <name>dfs.permissions.enabled</name>
 	  <value>false</value>
@@ -26,4 +27,8 @@
      <name>dfs.permissions</name>
      <value>false</value>
    </property>
+       <property>
+        <name>dfs.datanode.http.address</name>
+        <value>hadoop.10.2.2.2.nip.io:50075</value>
+    </property>
 </configuration>
