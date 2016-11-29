@@ -21,7 +21,7 @@
 	  <name>dfs.permissions.enabled</name>
 	  <value>false</value>
 	</property>
-	
+
 	 <property>
      <name>dfs.permissions</name>
      <value>false</value>
